@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabi Labo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body>
+  <header id="header">
+    <h1 class="site-title"><a href="index.html"><img src="tabitabi.jpeg" alt="tabi"></a></h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tabi">Tabi</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="mainvisual">
+      <picture>
+        <source media="(max-width: 600px)" srcset="mainpic.jpeg">
+        <img src="mainpic.jpeg" alt="mainpic">
+      </picture>
+    </div>
+
+    <section id="about" class="wrapper">
+      <h2 class="sec-title">About</h2>
+      <ul>
+        <li>2th Floor Building x-x-x akasaka, Minato-ku, Tokyo 106-0031 Japan</li>
+        <li>tel: 000-0000-0000</li>
+        <li>url: www.xxxxxx.jp</li>
+        <li>mail: xxx@xxxxxx.jp</li>
+      </ul>
+      <div class="box">
+        <p>
+        旅を広める会社である株式会社TabiTabiが運営をしている「旅」の総合WEBメディア。<br>
+        世界中のひとり旅を経験した旅行好きなメンバーが、旅する魅力を伝えたいという思いで設立しました。<br>
+        様々な経験をした旅行スタッフが素敵な旅をご提案します。
+      </p>
+    </div>
+
+    </section>
+
+    <section id="tabi" class="wrapper">
+      <h2 class="sec-title"> Tabi</h2>
+      <ul>
+        <li><img src="pic1.jpeg" alt="a"></li>
+        <li><img src="pic2.jpeg" alt="b"></li>
+        <li><img src="pic3.jpeg" alt="c"></li>
+        <li><img src="pic4.jpeg" alt="d"></li>
+        <li><img src="pic5.jpeg" alt="e"></li>
+        <li><img src="pic6.jpeg" alt="f"></li>
+      </ul>
+    </section>
+
+    <section id="news" class="wrapper">
+      <h2 class="sec-title">News</h2>
+      <dl>
+        <dt>2021.05.04</dt>
+        <dd>旅雑誌「Tabi工房 Vol.12」に掲載していただきました。</dd>
+        <dt>2021.05.01</dt>
+        <dd>6月6日より旅写真集「tabitabi」の販売を開始します</dd>
+        <dt>2021.07.01</dt>
+        <dd>「イベント開催のお知らせ」会場ベルサール六本木</dd>
+        <dt>2021.02.08</dt>
+        <dd>旅雑誌「Tabi工房 Vol.11」に掲載していただきました。</dd>
+      </dl>
+    </section>
+
+    <section id="contact" class="wrapper>
+      <h2 class="sec-title">Contact</h2>
+      <form action="#" method="post">
+        <dl>
+          <dt><label for="name">NAME</label></dt>
+          <dd><input type="name" id="name" name="your-name"></dd>
+          <dt><label for="email">E-mail</label></dt>
+          <dd><input type="email" id="email" name="your-email" ></dd>
+          <dt><label for="messege">MESSEGE</label></dt>
+          <dd><textarea id="messege" name="your-messege"></textarea></dd>
+        </dl>
+        <div class="button"><input type="submit" value="送信"></div>
+      </form>
+    </section>
+  </main>
+  
+  <footer id="footer">
+    <p>©︎ 2021 tabitabi</p>
+  </footer>
+</body>
+</html>
