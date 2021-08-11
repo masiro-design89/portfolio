@@ -40,7 +40,7 @@ li{
 .sec-title{
   font-size: 1.5rem;
   text-align: center;
-  margin-bottom: 65px;
+  margin-bottom: 40px;
 }
 
 .sec-title{
@@ -96,7 +96,7 @@ color: black;
   margin-bottom: 30px;
 }
 #about li{
-  margin-bottom: 8px;
+  margin-bottom: 15px;
 }
 #about p {
 text-align: center;
@@ -110,14 +110,15 @@ text-align: center;
 }
 .box p {
   margin: 0; 
-  padding: 0;
+  padding: 0px;
 }
 
 #tabi ul {
 display: flex;
 justify-content: space-between;
 flex-wrap: wrap;
-margin-bottom: 25px;
+margin-bottom: 50px;
+padding: 1rem;
 }
 
 #tabi li{
@@ -125,23 +126,11 @@ margin-bottom: 25px;
   margin-bottom: 30px;
 }
 
-#news dl {
-display: flex;
-flex-wrap: wrap;
-border-top: solid 1px #c8c8c8;
-margin-bottom: 20px;
-}
-
-#news dt {
-width: 20%;
-border-bottom:solid 1px  #c8c8c8;
-padding: 15px;
-}
-
 #news dd {
-  width: 80%;
-border-bottom:solid 1px  #c8c8c8;
-padding: 15px;
+  color: #24292e;
+  padding: 0.5em 0;
+  border-top: solid 1px #c8c8c8;
+  border-bottom: solid 1px #c8c8c8;
 }
 
 #contact dl {
@@ -219,11 +208,13 @@ padding: 15px;
 #news dl {
   flex-direction: column;
 }
+
 #news dt {
   width: 100%;
   border-bottom: none;
   padding-bottom: 0;
 }
+
 #news dd {
   width: 100%;
   padding-top: 0;
